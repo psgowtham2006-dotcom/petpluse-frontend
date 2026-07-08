@@ -3,7 +3,7 @@
  * Covers all backend endpoints with JWT auth attached automatically.
  */
 const API = (() => {
-  const BASE = 'http://localhost:8080/api';
+  const BASE = 'https://petpulse-backend-fltm.onrender.com/api';
 
   /** Attach auth header if token exists */
   function headers(extra = {}) {
